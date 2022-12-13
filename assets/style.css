@@ -1,0 +1,37 @@
+.root {
+    --accent-color-main: rgb(32, 116, 172);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f5f1f1;
+}
+
+#vhs {
+    padding-left: 15px;
+    color: var(--accent-color-main);
+    text-align: left;
+}
+
+#timer {
+    padding-right: 15px;
+    text-align: right;
+    color: var(--accent-color-main);
+}
+
+.start-btn {
+    background-color: var(--accent-color-main);
+}
+
+.question-btn {
+    background-color: var(--accent-color-main);
+}
+
