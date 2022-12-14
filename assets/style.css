@@ -1,4 +1,4 @@
-.root {
+:root {
     --accent-color-main: rgb(32, 116, 172);
 }
 
@@ -22,16 +22,28 @@ body {
 }
 
 #timer {
+    margin-top: -18px;
     padding-right: 15px;
     text-align: right;
     color: var(--accent-color-main);
 }
 
-.start-btn {
+.btn {
+    color: rgb(243, 225, 165);
     background-color: var(--accent-color-main);
+    border-radius: 5px;
+    margin: 2px;
+    width: 250px;
+    height: 50px;
+} 
+.btn:hover {
+    background-color: rgb(23, 97, 146);
+    cursor: pointer;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
 }
-
-.question-btn {
-    background-color: var(--accent-color-main);
+.btn:active {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
 }
 
