@@ -1,7 +1,6 @@
 var timerElement = document.getElementById("timer");
 var start = document.getElementById("start");
 
-var score = 0;
 var answered = 0;
 var timerCount;
 var timer;
@@ -32,17 +31,28 @@ function startTimer() {
 
 
 }
-
+//Starts the timer when the start button is clicked
+start.addEventListener("click", startQuiz)
+start.addEventListener("click", q1)
 
 function gameOver() {
 
 }
 
-function getScore() {
-
+var score = 0;
+document.getElementById("").onclick = function () {
+    var correct = document.getElementById("correct").value
+    var incorrect = document.getElementById("incorrect").value
+    if (correct === true) {
+        alert("nice!")
+        score++;
+    } else if (incorrect) {
+        alert("wrong");
+    }
 }
 
-//Starts the timer when the start button is clicked
-start.addEventListener("click", startQuiz)
-
-//Question 1
+function q1() {
+    document.getElementById("start").onclick = function () {
+        document.getElementById("q1").style.display = "block";
+    }
+}
