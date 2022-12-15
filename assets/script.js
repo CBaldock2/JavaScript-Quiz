@@ -26,17 +26,19 @@ function startTimer() {
             clearInterval(timer);
             gameOver
         }
-
     }, 1000);
-
-
 }
+
 //Starts the timer when the start button is clicked
 start.addEventListener("click", startQuiz)
 start.addEventListener("click", q1)
 
-function gameOver() {
 
+//nothing below works
+function q1() {
+    document.getElementById("start").onclick = function () {
+        document.getElementById("q1").style.display = "block";
+    }
 }
 
 var score = 0;
@@ -48,11 +50,5 @@ document.getElementById("").onclick = function () {
         score++;
     } else if (incorrect) {
         alert("wrong");
-    }
-}
-
-function q1() {
-    document.getElementById("start").onclick = function () {
-        document.getElementById("q1").style.display = "block";
     }
 }
