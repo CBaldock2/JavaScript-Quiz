@@ -47,7 +47,7 @@ body {
     transform: translateY(2px);
 }
 
-.q1, .q2, .q3, .fin {
+.q1, .fin {
     display: none;
 }
 
