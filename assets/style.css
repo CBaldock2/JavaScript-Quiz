@@ -14,6 +14,9 @@ body {
     justify-content: flex-start;
     background-color: #f5f1f1;
 }
+header {
+    margin-bottom: 25px;
+}
 
 #vhs {
     padding-left: 15px;
@@ -35,19 +38,28 @@ body {
     margin: 2px;
     width: 250px;
     height: 50px;
-} 
+}
+
 .btn:hover {
     background-color: rgb(23, 97, 146);
     cursor: pointer;
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
 }
+
 .btn:active {
     -webkit-transform: translateY(2px);
     transform: translateY(2px);
 }
 
-.q1, .fin {
-    display: none;
+
+.box {
+    padding: 25px 25% 100px 25%;
+    border: 3px solid var(--accent-color-main);
+    text-align: center;
 }
 
+#goBack {
+    color: inherit;
+    text-decoration: inherit;
+}
