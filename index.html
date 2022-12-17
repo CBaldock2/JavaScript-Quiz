@@ -19,8 +19,9 @@
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="box">
+
+            <div class="infoPage">
                 <!--Start Screen-->
                 <h2>Coding Quiz</h2>
                 <p>Try to answer all of the code-related questions before time runs out. <b><i>WARNING!</i></b> If you
@@ -30,12 +31,13 @@
                     <button class="btn" id="start">Start</button>
                 </div>
             </div>
-            <div class="q1">
+
+            <div class="q1" data-state="hidden">
                 <!--Question 1-->
                 <h2>This is question ____</h2>
                 <div>
                     <!--Button answer 1-->
-                    <button class="btn incorrect" class>19</button>
+                    <button class="btn incorrect">19</button>
                 </div>
                 <div>
                     <!--Button answer 2-->
@@ -51,14 +53,14 @@
                 </div>
             </div>
 
-            </div>
             <div class="fin">
                 <!--Your score-->
                 <h2>Finished!</h2>
                 <p>Congratulations!</p>
                 <p>Your score is: ___<!--Needs to have the current score-->___</p>
-                <div>Enter initials: <!--A box to enter your initals and a submit box--><button
-                        class="btn">Submit</button></div>
+                <div>Enter initials:  <input type="text" name="initials" id="submit"><!--A box to enter your initals and a submit box-->
+                    <button class="btn">Submit</button>
+                </div>
             </div>
         </section>
     </main>
