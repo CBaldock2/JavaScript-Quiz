@@ -13,10 +13,10 @@ To use the JavaScript quiz you begin by pressing the start button. Pressing the 
 N/A
 
 ## Screenshots
-
+![start page](/assets/imgs/Screenshot_20221219_030219.png)
 
 ## Link
-
+<a href = "https://cbaldock2.github.io/JavaScript-Quiz/">JavaScript Quiz</a>
 
 ## License
 Please refer to the license in the repo.
