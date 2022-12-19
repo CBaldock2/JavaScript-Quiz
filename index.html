@@ -11,7 +11,6 @@
 
 <body>
     <header>
-        <!--View Highscore (maybe link, maybe another hidden page)-->
         <a href="highscore.html" id="vhs">View Highscores</a>
         <!--Timer-->
         <div id="timer">
@@ -32,24 +31,77 @@
                 </div>
             </div>
 
-            <div class="q1" data-state="hidden">
-                <!--Question 1-->
-                <h2>This is question ____</h2>
+            <div class="q1">
+                <h2 class="q1-q1"></h2>
                 <div>
-                    <!--Button answer 1-->
-                    <button class="btn incorrect">19</button>
+                    <button class="btn incorrect ent">19</button>
                 </div>
                 <div>
-                    <!--Button answer 2-->
-                    <button class="btn correct">1</button>
+                    <button class="btn correct ent">1</button>
                 </div>
                 <div>
-                    <!--Button answer 3-->
-                    <button class="btn incorrect">777</button>
+                    <button class="btn incorrect ent">777</button>
                 </div>
                 <div>
-                    <!--Button answer 4-->
-                    <button class="btn incorrect">10</button>
+                    <button class="btn incorrect ent">10</button>
+                </div>
+            </div>
+
+            <div class="q2">
+                <h2 class="q2-q2">This is a question </h2>
+                <div>
+                    <button class="btn incorrect ent2">True</button>
+                </div>
+                <div>
+                    <button class="btn correct ent2">False</button>
+                </div>
+            </div>
+
+            <div class="q3">
+                <h2 class="q3-q3">This is question __3__</h2>
+                <div>
+                    <button class="btn incorrect ent3">3</button>
+                </div>
+                <div>
+                    <button class="btn correct ent3">1</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent3">777</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent3">10</button>
+                </div>
+            </div>
+
+            <div class="q4">
+                <h2 class="q4-q4">This is question __4__</h2>
+                <div>
+                    <button class="btn incorrect ent4">19</button>
+                </div>
+                <div>
+                    <button class="btn correct ent4">1</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent4">777</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent4">4</button>
+                </div>
+            </div>
+
+            <div class="q5">
+                <h2 class="q5-q5">This is question _5___</h2>
+                <div>
+                    <button class="btn incorrect ent5">5</button>
+                </div>
+                <div>
+                    <button class="btn correct ent5">B</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent5">65</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent5">10</button>
                 </div>
             </div>
 
@@ -57,9 +109,10 @@
                 <!--Your score-->
                 <h2>Finished!</h2>
                 <p>Congratulations!</p>
-                <p>Your score is: ___<!--Needs to have the current score-->___</p>
-                <div>Enter initials:  <input type="text" name="initials" id="submit"><!--A box to enter your initals and a submit box-->
-                    <button class="btn">Submit</button>
+                <p>Your score is: <span class="currentScore"></span><!--Needs to have the current score-->___</p>
+                <div>Enter initials: <input type="text" name="initials"
+                        id="submit"><!--A box to enter your initals and a submit box-->
+                    <button class="submitBtn ">Submit</button>
                 </div>
             </div>
         </section>
