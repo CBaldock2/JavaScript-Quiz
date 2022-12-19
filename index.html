@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="highscore.html" id="vhs">View Highscores</a>
+        <!--Timer-->
+        <div id="timer">
+        </div>
+    </header>
+
+    <main>
+        <section class="box">
+
+            <div class="infoPage">
+                <!--Start Screen-->
+                <h2>Coding Quiz</h2>
+                <p>Try to answer all of the code-related questions before time runs out. <b><i>WARNING!</i></b> If you
+                    answer a question incorrectly, 5 seconds will be deducted from the timer. Good luck!</p>
+                <div>
+                    <!--Start Button-->
+                    <button class="btn" id="start">Start</button>
+                </div>
+            </div>
+
+            <div class="q1">
+                <h2 class="q1-q1"></h2>
+                <div>
+                    <button class="btn incorrect ent">19</button>
+                </div>
+                <div>
+                    <button class="btn correct ent">1</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent">777</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent">10</button>
+                </div>
+            </div>
+
+            <div class="q2">
+                <h2 class="q2-q2">This is a question </h2>
+                <div>
+                    <button class="btn incorrect ent2">True</button>
+                </div>
+                <div>
+                    <button class="btn correct ent2">False</button>
+                </div>
+            </div>
+
+            <div class="q3">
+                <h2 class="q3-q3">This is question __3__</h2>
+                <div>
+                    <button class="btn incorrect ent3">3</button>
+                </div>
+                <div>
+                    <button class="btn correct ent3">1</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent3">777</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent3">10</button>
+                </div>
+            </div>
+
+            <div class="q4">
+                <h2 class="q4-q4">This is question __4__</h2>
+                <div>
+                    <button class="btn incorrect ent4">19</button>
+                </div>
+                <div>
+                    <button class="btn correct ent4">1</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent4">777</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent4">4</button>
+                </div>
+            </div>
+
+            <div class="q5">
+                <h2 class="q5-q5">This is question _5___</h2>
+                <div>
+                    <button class="btn incorrect ent5">5</button>
+                </div>
+                <div>
+                    <button class="btn correct ent5">B</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent5">65</button>
+                </div>
+                <div>
+                    <button class="btn incorrect ent5">10</button>
+                </div>
+            </div>
+
+            <div class="fin">
+                <!--Your score-->
+                <h2>Finished!</h2>
+                <p>Congratulations!</p>
+                <p>Your score is: <span class="currentScore"></span><!--Needs to have the current score-->___</p>
+                <div>Enter initials: <input type="text" name="initials"
+                        id="submit"><!--A box to enter your initals and a submit box-->
+                    <button class="submitBtn ">Submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
