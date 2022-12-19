@@ -13,7 +13,7 @@ var holdInterval = 0;
 var points = 0;
 
 var questions = {
-    question1: "This is question _1___",
+    question1: "What is NaN",
     options: {
         answer1: "45",
         answer2: "1",
