@@ -31,7 +31,7 @@ header {
     color: var(--accent-color-main);
 }
 
-.btn {
+.btn, .submitBtn {
     color: rgb(243, 225, 165);
     background-color: var(--accent-color-main);
     border-radius: 5px;
@@ -40,14 +40,14 @@ header {
     height: 50px;
 }
 
-.btn:hover {
+.btn:hover, .submitBtn {
     background-color: rgb(23, 97, 146);
     cursor: pointer;
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
 }
 
-.btn:active {
+.btn:active, .submitBtn {
     -webkit-transform: translateY(2px);
     transform: translateY(2px);
 }
